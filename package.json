@@ -1,0 +1,35 @@
+{
+  "name": "bnb-wallet-monitor",
+  "version": "1.0.0",
+  "description": "A bot to monitor BNB wallet transactions and send notifications via Telegram.",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "web3": "^1.10.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "bnb",
+    "wallet-monitor",
+    "telegram-bot",
+    "web3",
+    "blockchain-monitoring"
+  ],
+  "author": "Woop-Woop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vitawt-The-Duke/bnb-wallet-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vitawt-The-Duke/bnb-wallet-monitor/issues"
+  },
+  "homepage": "https://github.com/Vitawt-The-Duke/bnb-wallet-monitor#readme"
+}
+
